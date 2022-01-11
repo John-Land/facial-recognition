@@ -1,4 +1,4 @@
-# Facial Recognition. Prediction of person Identify from facial image.
+# Facial Recognition. Prediction of person Identity from facial image.
 
 Facial Recognition has been deployed in many different scenarios, most famously in mobile phones. <br>
 In this project we use a subset of the "Labeled Faces in the Wild" dataset to test some models for facial recognition.
