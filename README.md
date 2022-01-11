@@ -71,7 +71,7 @@ Below out of sample performance was achieved by the best model on the test set.
 
 The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an test set accuracy of 85.1%. <br>
 
-![Confusion Matrix Test Set](canfusion_matrix_test_set.png)
+![Best Model (Model 5) Architecture](canfusion_matrix_test_set.png)
 
 ## Appendix
 
