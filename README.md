@@ -28,6 +28,8 @@ Based on the requirement of at least 100 images per person, the dataset was redu
 3: 'Gerhard Schroeder'<br>
 4: 'Tony Blair'<br>
 
+![Sample Images](training_set_sample_image_01.png)
+
 ## Training
 
 After splitting the dataset into training set (80%) and test set (20%), 6 different deep learning models were trained in Tenserflow Keras. <br>
@@ -68,6 +70,10 @@ Below out of sample performance was achieved by the best model on the test set.
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 0.851                |
 
 The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an test set accuracy of 85.1%. <br>
+
+![canfusion_matrix_test_set.png](training_set_sample_image_01.png)
+
+![](training_set_sample_image_01.png)
 
 ## Appendix
 
