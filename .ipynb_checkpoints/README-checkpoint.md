@@ -19,7 +19,7 @@ The Labeled Faces in the Wild dataset can be found under below link from the Uni
 We will use the sklearn functions specially designed to extract our sample images from the raw data. <br>
 To make our test use case easier, we will only consider individuals with at least 100 images in the dataset. <br>
 
-The dataset considered had a total of 1140 images, with dimentions (125, 94, 3). <br>
+The dataset considered had a total of 1140 images, with dimensions (125, 94, 3). <br>
 Based on the requirement of at least 100 images per person, the dataset was reduced two 5 unique labels. <br>
 
 0: 'Colin Powell'<br>
@@ -27,6 +27,8 @@ Based on the requirement of at least 100 images per person, the dataset was redu
 2: 'George W Bush'<br>
 3: 'Gerhard Schroeder'<br>
 4: 'Tony Blair'<br>
+
+For reference, below are two sample images from the dataset.
 
 ![Sample Images](training_set_sample_image_01.png)
 
@@ -50,7 +52,7 @@ Below performance was achieved by the different candidate models on training set
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 1.190163         | 0.858696             |
 | Model 6: Pre-Trained Xception + Convolutional Layers + Fully Connected Layers | 1.776408         | 0.576087             |
 
-The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an validation accuracy of 85.9%. <br>
+The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with a validation accuracy of 85.9%. <br>
 
 | Model                                                                         | Validation\_Loss | Validation\_Accuracy |
 | ----------------------------------------------------------------------------- | ---------------- | -------------------- |
@@ -62,7 +64,7 @@ The model selected with the best Validation performance was the Model 5 (Pre-Tra
 
 ## Results on out of sample test-set
 
-The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an validation accuracy of 85.9%. <br>
+The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with a validation accuracy of 85.9%. <br>
 Below out of sample performance was achieved by the best model on the test set.
 
 | Model                                                                         | Test\_Accuracy       |
