@@ -48,22 +48,26 @@ Below performance was achieved by the different candidate models on training set
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 1.190163         | 0.858696             |
 | Model 6: Pre-Trained Xception + Convolutional Layers + Fully Connected Layers | 1.776408         | 0.576087             |
 
-The model selected with the best Validation performance was the Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers, with an average cross validation r2 of 63.5%. <br>
+The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an validation accuracy of 85.9%. <br>
 
 | Model                                                                         | Validation\_Loss | Validation\_Accuracy |
 | ----------------------------------------------------------------------------- | ---------------- | -------------------- |
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 1.190163         | 0.858696             |
 
+## Best model architecture
+
+![Best Model (Model 5) Architecture](model_05.png)
+
 ## Results on out of sample test-set
 
-The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an average cross validation r2 of 63.5%. <br>
+The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an validation accuracy of 85.9%. <br>
 Below out of sample performance was achieved by the best model on the test set.
 
 | Model                                                                         | Test\_Accuracy       |
 | ----------------------------------------------------------------------------- | -------------------- |
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 0.851                |
 
-The model selected with the best Cross Validation performance was the VotingRegressor, with an out of sample test set r2 of 60.8%.
+The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an test set accuracy of 85.1%. <br>
 
 ## Appendix
 
