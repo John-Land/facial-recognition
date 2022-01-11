@@ -48,20 +48,20 @@ Below performance was achieved by the different candidate models on training set
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 1.190163         | 0.858696             |
 | Model 6: Pre-Trained Xception + Convolutional Layers + Fully Connected Layers | 1.776408         | 0.576087             |
 
-The model selected with the best Cross Validation performance was the VotingRegressor, with an average cross validation r2 of 63.5%.
+The model selected with the best Validation performance was the Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers, with an average cross validation r2 of 63.5%. <br>
 
 | Model                                                                         | Validation\_Loss | Validation\_Accuracy |
-| ----------------------------------------------------------------------------- | ---------------- | -------------------- |     |
+| ----------------------------------------------------------------------------- | ---------------- | -------------------- |
 | Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 1.190163         | 0.858696             |
 
 ## Results on out of sample test-set
 
-The model selected with the best Cross Validation performance was the VotingRegressor.
+The model selected with the best Validation performance was the Model 5 (Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers), with an average cross validation r2 of 63.5%. <br>
 Below out of sample performance was achieved by the best model on the test set.
 
-|           Model 	| Test_r2 	| Test_mae 	| Test_rmse 	|
-|----------------:	|--------:	|---------:	|----------:	|
-| VotingRegressor 	|   0.608 	|    1.732 	|     3.041 	|
+| Model                                                                         | Test\_Accuracy       |
+| ----------------------------------------------------------------------------- | -------------------- |
+| Model 5: Pre-Trained Resnet50 + Convolutional Layers + Fully Connected Layers | 0.851                |
 
 The model selected with the best Cross Validation performance was the VotingRegressor, with an out of sample test set r2 of 60.8%.
 
